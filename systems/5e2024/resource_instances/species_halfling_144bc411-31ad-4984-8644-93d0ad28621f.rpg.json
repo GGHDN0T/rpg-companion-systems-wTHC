@@ -8,6 +8,9 @@
     "source": {
       "value": "phb"
     },
+     "size": {
+      "value": "Small"
+    },
     "traits": {
       "value": [
         {

@@ -41,6 +41,18 @@ view race_display() =
           text(id = "race_display_speeds_text", text = display_speeds, style = "text"),
         ],
       ),
+       composite(
+        id = "race_display_size",
+        subviews = [
+          text(
+            id = "race_display_armor_class_label",
+            text = "Size: ",
+            style = "text",
+            bold = true,
+          ),
+          text(id = "race_display_size_text", text = display_size, style = "text"),
+        ],
+      ),
       collapsible(
         id = "race_display_traits_collapsible",
         title = "Traits",
